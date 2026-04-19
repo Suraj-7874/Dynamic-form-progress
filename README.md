@@ -32,7 +32,7 @@ A modern multi-step form with dynamic progress tracking, custom UI components, a
 
 ## 🚀 Live Demo
 
-👉 https://your-live-demo-link.com
+👉 [https://your-live-demo-link.com](https://suraj-7874.github.io/Dynamic-form-progress/)
 
 ---
 
@@ -42,7 +42,9 @@ A modern multi-step form with dynamic progress tracking, custom UI components, a
 ├── index.html
 ├── styles.css
 ├── app.js
+├── Snapshots
 └── README.md
+
 ```
 
 ---
@@ -74,9 +76,6 @@ Open `index.html` in your browser.
 You can easily deploy using:
 
 * GitHub Pages
-* Netlify
-* Vercel
-
 ---
 
 ## 🎯 Use Cases
@@ -110,7 +109,7 @@ This project is open-source and available under the MIT License.
 ---
 
 ## 🙌 Acknowledgements
-
+check my all projects here --> https://github.com/Suraj-7874
 Inspired by modern UX patterns and clean form experiences.
 
 ---
