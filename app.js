@@ -139,7 +139,7 @@
         $("body").addClass("modal-open");
         setTimeout(function () {
       location.reload();
-    }, 5000);
+    }, 2000);
       }
     } else {
       thankModalDismissed = false;
