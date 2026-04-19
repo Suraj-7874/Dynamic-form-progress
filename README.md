@@ -28,7 +28,6 @@ A modern multi-step form with dynamic progress tracking, custom UI components, a
 👉 [https://your-live-demo-link.com](https://suraj-7874.github.io/Dynamic-form-progress/)
 
 ---
-## 📸 Preview
 ## 📸 UI Preview
 
 | Screen                             | Preview                                                      |
@@ -116,6 +115,7 @@ This project is open-source and available under the MIT License.
 
 ## 🙌 Acknowledgements
 check my all projects here --> https://github.com/Suraj-7874
+and my resume -->https://github.com/Suraj-7874/Resume/blob/main/Suraaj_2025.pdf
 Inspired by modern UX patterns and clean form experiences.
 
 ---
