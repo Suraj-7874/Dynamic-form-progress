@@ -26,7 +26,7 @@ A modern multi-step form with dynamic progress tracking, custom UI components, a
 
 ## 📸 Preview
 
-<img width="100%" alt="preview" src="https://via.placeholder.com/900x400.png?text=FormFlow+UI+Preview">
+<img width="100%" alt="preview" src="SnapShots/Screen_1&Progress_bar.png">
 
 ---
 
