@@ -23,19 +23,21 @@ A modern multi-step form with dynamic progress tracking, custom UI components, a
 * JavaScript (jQuery)
 
 ---
-
-## 📸 Preview
-
-<img width="100%" alt="preview" src="SnapShots/Screen_1&Progress_bar.png">
-
----
-
 ## 🚀 Live Demo
 
 👉 [https://your-live-demo-link.com](https://suraj-7874.github.io/Dynamic-form-progress/)
 
 ---
+## 📸 Preview
 
+<img width="100%" alt="preview" src="SnapShots/Screen_1&Progress_bar.png">
+<img width="100%" alt="preview" src="SnapShots/Screen_2_&back_button.png">
+<img width="100%" alt="preview" src="SnapShots/Dropdown_selection.png">
+<img width="100%" alt="preview" src="SnapShots/Filled_information.png">
+<img width="100%" alt="preview" src="SnapShots/Radio_box.png">
+<img width="100%" alt="preview" src="SnapShots/Thank_you.png">
+
+---
 ## 📂 Project Structure
 
 ```
