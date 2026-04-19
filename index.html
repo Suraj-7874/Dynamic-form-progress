@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Let’s Get to Know You</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="page__header">
+        <p class="page__eyebrow">Welcome</p>
+        <h1 class="page__title">Let’s Get to Know You</h1>
+      </header>
+
+      <section class="form-card" aria-label="Multi-step form">
+        <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Form completion">
+          <div class="progress__track">
+            <div class="progress__fill" id="progressFill"></div>
+          </div>
+          <div class="progress__meta">
+            <span class="progress__label">Progress</span>
+            <span class="progress__value" id="progressValue">0%</span>
+          </div>
+        </div>
+
+        <div class="viewport">
+          <div class="viewport__clip">
+            <div class="slides" id="slides">
+           
+            <div class="slide" data-step="0" aria-hidden="false">
+              <div class="field">
+                <label class="field__label" for="textFirst">Enter full name</label>
+                <input
+                  class="field__input"
+                  type="text"
+                  id="textFirst"
+                  name="textFirst"
+                  autocomplete="name"
+                  maxlength="80"
+                  placeholder="Eg. Suraj Surve"
+                />
+              </div>
+
+              <div class="field">
+                <label class="field__label" for="textCity">City you work from</label>
+                <input
+                  class="field__input"
+                  type="text"
+                  id="textCity"
+                  name="textCity"
+                  autocomplete="address-level2"
+                  maxlength="80"
+                  placeholder="Pune"
+                />
+              </div>
+
+              <div class="field">
+                <span class="field__label" id="labelRole">Primary role</span>
+                <div
+                  class="custom-select"
+                  data-field="selectRole"
+                  role="listbox"
+                  aria-labelledby="labelRole"
+                >
+                  <button type="button" class="custom-select__trigger" aria-haspopup="listbox" aria-expanded="false">
+                    <span class="custom-select__value" data-placeholder="Choose a role">Choose a role</span>
+                    <span class="custom-select__chevron" aria-hidden="true"></span>
+                  </button>
+                  <ul class="custom-select__panel" hidden>
+                    <li class="custom-select__option" role="option" data-value="design" tabindex="-1">Product design</li>
+                    <li class="custom-select__option" role="option" data-value="engineering" tabindex="-1">Engineering</li>
+                    <li class="custom-select__option" role="option" data-value="data" tabindex="-1">Data &amp; analytics</li>
+                    <li class="custom-select__option" role="option" data-value="ops" tabindex="-1">Operations</li>
+                    <li class="custom-select__option" role="option" data-value="Security" tabindex="-1">Security</li>
+                  </ul>
+                  <input type="hidden" name="selectRole" id="selectRole" value="" />
+                </div>
+              </div>
+            </div>
+
+           
+            <div class="slide" data-step="1" aria-hidden="true">
+              <div class="field">
+                <span class="field__label" id="labelFocus">Current focus</span>
+                <div
+                  class="custom-select"
+                  data-field="selectFocus"
+                  role="listbox"
+                  aria-labelledby="labelFocus"
+                >
+                  <button type="button" class="custom-select__trigger" aria-haspopup="listbox" aria-expanded="false">
+                    <span class="custom-select__value" data-placeholder="Choose a focus">Choose a focus</span>
+                    <span class="custom-select__chevron" aria-hidden="true"></span>
+                  </button>
+                  <ul class="custom-select__panel" hidden>
+                    <li class="custom-select__option" role="option" data-value="launch" tabindex="-1">Launch readiness</li>
+                    <li class="custom-select__option" role="option" data-value="scale" tabindex="-1">Scaling systems</li>
+                    <li class="custom-select__option" role="option" data-value="quality" tabindex="-1">Quality &amp; craft</li>
+                    <li class="custom-select__option" role="option" data-value="discovery" tabindex="-1">Discovery &amp; research</li>
+                  </ul>
+                  <input type="hidden" name="selectFocus" id="selectFocus" value="" />
+                </div>
+              </div>
+
+              <fieldset class="field field--radios">
+                <legend class="field__label">Collaboration tempo</legend>
+                <div class="radio-row" role="radiogroup" aria-label="Collaboration tempo">
+                  <label class="radio-pill">
+                    <input type="radio" name="radioTempo" value="async" />
+                    <span class="radio-pill__ui">Async-first</span>
+                  </label>
+                  <label class="radio-pill">
+                    <input type="radio" name="radioTempo" value="sync" />
+                    <span class="radio-pill__ui">Real-time heavy</span>
+                  </label>
+                  <label class="radio-pill">
+                    <input type="radio" name="radioTempo" value="hybrid" />
+                    <span class="radio-pill__ui">Balanced hybrid</span>
+                  </label>
+                </div>
+              </fieldset>
+
+              <fieldset class="field field--radios">
+                <legend class="field__label">Feedback style</legend>
+                <div class="radio-row" role="radiogroup" aria-label="Feedback style">
+                  <label class="radio-pill">
+                    <input type="radio" name="radioFeedback" value="direct" />
+                    <span class="radio-pill__ui">Direct &amp; concise</span>
+                  </label>
+                  <label class="radio-pill">
+                    <input type="radio" name="radioFeedback" value="context" />
+                    <span class="radio-pill__ui">Context-rich</span>
+                  </label>
+                  <label class="radio-pill">
+                    <input type="radio" name="radioFeedback" value="visual" />
+                    <span class="radio-pill__ui">Visual walkthroughs</span>
+                  </label>
+                </div>
+              </fieldset>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="form-nav">
+        <button type="button" id="backBtn" class="btn-back">Back</button>
+        </div>
+        <div class="step-dots" id="stepDots" aria-hidden="true">
+          <span class="step-dots__dot is-active"></span>
+          <span class="step-dots__dot"></span>
+         
+        </div>
+        
+      </section>
+    </main>
+
+    <div class="thank-modal" id="thankYouModal" hidden role="dialog" aria-modal="true" aria-labelledby="thankYouTitle">
+      <div class="thank-modal__backdrop" data-close-modal tabindex="-1"></div>
+      <div class="thank-modal__dialog">
+        <div class="thank-modal__icon" aria-hidden="true">✓</div>
+        <h2 class="thank-modal__title" id="thankYouTitle">Thank you</h2>
+        <p class="thank-modal__text">We appreciate your time — have a wonderful day ahead..</p>
+        <button type="button" class="thank-modal__btn" data-close-modal>Done</button>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
