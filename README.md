@@ -29,13 +29,17 @@ A modern multi-step form with dynamic progress tracking, custom UI components, a
 
 ---
 ## 📸 Preview
+## 📸 UI Preview
 
-<img width="100%" alt="preview" src="SnapShots/Screen_1&Progress_bar.png">
-<img width="100%" alt="preview" src="SnapShots/Screen_2_&back_button.png">
-<img width="100%" alt="preview" src="SnapShots/Dropdown_selection.png">
-<img width="100%" alt="preview" src="SnapShots/Filled_information.png">
-<img width="100%" alt="preview" src="SnapShots/Radio_box.png">
-<img width="100%" alt="preview" src="SnapShots/Thank_you.png">
+| Screen                             | Preview                                                      |
+| ---------------------------------- | ------------------------------------------------------------ |
+| **Step 1 – Input & Progress Bar**  | <img src="SnapShots/Screen_1&Progress_bar.png" width="100%"> |
+| **Step 2 – Form with Back Button** | <img src="SnapShots/Screen_2_&back_button.png" width="100%"> |
+| **Custom Dropdown Selection**      | <img src="SnapShots/Dropdown_selection.png" width="100%">    |
+| **Filled Form State**              | <img src="SnapShots/Filled_information.png" width="100%">    |
+| **Radio Button Selection**         | <img src="SnapShots/Radio_box.png" width="100%">             |
+| **Thank You Modal**                | <img src="SnapShots/Thank_you.png" width="100%">             |
+
 
 ---
 ## 📂 Project Structure
